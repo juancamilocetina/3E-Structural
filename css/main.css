@@ -1,7 +1,15 @@
+#navbar{
+    z-index: 10;
+    opacity: 0.8;
+}
+#carouselExampleIndicators{
+    margin-top: -100px;
+}
 #ribbon{
-    background-color: rgb(191, 189, 188);
+    background-color: rgb(175, 175, 175);
     background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(144,144,144,0.5) 25px, rgba(144,144,144,0.5) 40px) ;
 }
+
 
 #ribbon::after{
     content: '';
@@ -15,13 +23,40 @@
     margin-top: -40px;
 
 }
+#sep-ribbon{
+    background-color: #D3A303;
+    position: relative;
+    z-index: 2;
+
+    height: 150%;
+    margin-left: 0%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+#sep-ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: 0px;
+    
+
+}
 
 #birthday{
     background-color: rgb(191, 189, 188);
     position: relative;
+    width: 60%;
+    height: 50%;
     margin-top: -20px;
     z-index: 10;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.9);
 }
 
 #birthday img{
@@ -30,8 +65,9 @@
 }
 
 .text-shadow{
-    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+    text-shadow: 0 3px 3px rgba(0,0,0,0.9);
 }
+
 
 #separator-ribbon{
     width: 100%;
@@ -45,4 +81,46 @@
     margin-left: -25%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+#informacion{
+    background-color: rgb(255,255,255);
+    background: url(../img/Fondo_Web.png), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 57%);
+    background-size: 100%;
+    margin-top: -50px;
+}
+
+#separator-mas{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separator-mas .content{
+    background: url(../img/bg-05.jpg);
+    width: 110%;
+    height: 100px;
+
+    margin-left: -5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+
+#informacion1{
+    background-color: rgb(255,255,255);
+    background: url(../img/Fondo_Web.png), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 57%);
+    background-size: 100%;
+    margin-top: -100px;
 }
