@@ -1,13 +1,33 @@
+@font-face{
+    font-family: 'miFuente';
+    src: url(../font/GothamLight.ttf);
+}
+@font-face{
+    font-family: 'miFuente2';
+    src: url(../font/GothamBold.ttf);
+}
+.nav-item{
+    font-family: 'miFuente';
+    font-size: 20px;
+}
 #navbar{
     z-index: 10;
     opacity: 0.8;
 }
+
 #carouselExampleIndicators{
     margin-top: -100px;
 }
 #ribbon{
     background-color: rgb(175, 175, 175);
     background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(144,144,144,0.5) 25px, rgba(144,144,144,0.5) 40px) ;
+    font-family: 'miFuente2';
+}
+#title{
+    font-family: 'miFuente2';
+}
+#par{
+    font-family: 'miFuente';
 }
 
 
@@ -124,3 +144,59 @@
     background-size: 100%;
     margin-top: -100px;
 }
+
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  .social-buttons__button {
+    margin: 10px 5px 0;
+  }
+  
+  .social-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+  }
+  .social-button__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: 100%;
+    background: #fff;
+    text-align: center;
+  }
+  .social-button i,
+  .social-button svg {
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+  }
+  .social-button i {
+    font-size: 28px;
+  }
+  .social-button svg {
+    height: 40%;
+    width: 40%;
+  }
+  .social-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    transition: 0.3s;
+  }
