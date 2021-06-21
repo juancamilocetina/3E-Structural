@@ -21,7 +21,8 @@
 #ribbon{
     background-color: rgb(175, 175, 175);
     background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(144,144,144,0.5) 25px, rgba(144,144,144,0.5) 40px) ;
-    font-family: 'miFuente2';
+    font-family: 'miFuente';
+    font-size: 40px;
 }
 #ribbon1{
     background-color: rgb(175, 175, 175);
@@ -29,7 +30,7 @@
     font-family: 'miFuente';
 }
 #title{
-    font-family: 'miFuente2';
+    font-family: 'miFuente';
 }
 #par{
     font-family: 'miFuente';
@@ -75,6 +76,7 @@
 }
 
 #birthday{
+    opacity: 70%;
     background-color: rgb(191, 189, 188);
     position: relative;
     width: 60%;
