@@ -75,6 +75,7 @@
 }
 
 #birthday{
+    border-radius: 1em;
     opacity: 70%;
     background-color: rgb(191, 189, 188);
     position: relative;
