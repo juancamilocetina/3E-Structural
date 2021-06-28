@@ -163,8 +163,19 @@
 }
 
 #texto{
+    margin-top: -20px;
+    
+}
+#df{
+    font-family: 'miFuente';
+    font-size: 20px;
+}
+#texto1{
     margin-top: 20px;
     
+}
+#tqs{
+    margin-top: 30px;
 }
 .card-border1{
     border-radius: 20px;
