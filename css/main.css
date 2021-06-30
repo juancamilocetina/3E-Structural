@@ -33,6 +33,7 @@
 }
 #par{
     font-family: 'miFuente';
+    margin-left: 85px;
 }
 
 
@@ -182,9 +183,15 @@
     overflow: hidden;
     transition: all ease-out 0.5s;
 }
+#structure1{
+    
+    width: 70%;
+    margin-top: 80px;
+ 
+}
 #structure{
     height: 2%;
-    width: 100%;
+    width: 70%;
     
 }
 .card-border1:hover{
