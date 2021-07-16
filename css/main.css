@@ -169,6 +169,7 @@
 
 #texto{
     margin-top: -20px;
+    font-size: 25px;
     
 }
 #df{
@@ -176,8 +177,8 @@
     font-size: 20px;
 }
 #texto1{
-    margin-top: 20px;
-    
+    margin-top: 10px;
+    font-size: 30px;
 }
 #tqs{
     margin-top: 30px;
@@ -188,10 +189,12 @@
     transition: all ease-out 0.5s;
 }
 #structure1{
-    
     width: 70%;
     margin-top: 62px;
- 
+}
+#structure11{
+    width: 70%;
+    margin-top: 30px;
 }
 #structure2{
     
@@ -201,9 +204,14 @@
 }
 #structure{
     height: 2%;
-    width: 70%;
-    
+    width: 70%; 
 }
+#structureie{
+    height: 2%;
+    width: 70%; 
+    margin-top: 50px;
+}
+
 .card-border1:hover{
     transform: scale(1.05);
 }
